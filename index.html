@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP : Pokedex</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img class="logo" src="./images/logo.png" alt="" />
+        <button id="toggleButton" class="theme-toggle">Switch theme</button>
+      </div>
+      <div class="search-container">
+        <label class="input-label sr-only" for="filter-search"
+          >Rechercher un pokemon</label
+        >
+        <input
+          class="form-control"
+          type="search"
+          id="searchInput"
+          placeholder="Rechercher un pokemon"
+        />
+      </div>
+    </header>
+
+    <!-- Container pour afficher la liste des pokemons depuis l'api via JS -->
+    <main id="pokemonList" class="grid"></main>
+
+    <footer>
+      <div class="credits">
+        © Pokedex NWS 2023 par
+        <a
+          href="https://raphaelsanchez.design"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Raphael Sanchez</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
