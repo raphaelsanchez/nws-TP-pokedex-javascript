@@ -4,6 +4,8 @@
 
 Réaliser un pokedex en utilisant l'API pokeapi.co
 
+[Voir le rendu final](https://raphaelsanchez.design/nws-TP-pokedex-javascript/)
+
 ## Prérequis
 
 - HTML
